@@ -59,10 +59,10 @@ function Schedule() {
 function Ranking() {
 
   var ranking = [
+    {name:"Naime",img:"./img/n.png",point:0},
     {name:"Zahin",img:"./img/z.png",point:0},
     {name:"Hamza",img:"./img/h.png",point:0},
     {name:"Rinku",img:"./img/r.png",point:0},
-    {name:"Naime",img:"./img/n.png",point:0},
   ]
 
   rows.forEach((a) => {
