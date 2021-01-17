@@ -1,7 +1,26 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
+.MuiTabs-centered {
+  background-color: #000486;
+}
+.MuiTableCell-head {
+  font-weight: 900 !important;
+  color: red !important;
+}
+.MuiTab-wrapper {
+  color: white;
+}
+.PrivateTabIndicator-colorPrimary-2 {
+  background-color: white !important;
+}
+.MuiTypography-displayBlock {
+  text-align: right;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
