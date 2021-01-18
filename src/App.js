@@ -16,13 +16,13 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Divider from '@material-ui/core/Divider';
 
 const rows = [
-  {team1:"Rinku",team2:"Hamza",date:"18/01/2021",point:"",winner:""},
-  {team1:"Naime",team2:"Zahin",date:"18/01/2021",point:"",winner:""},
-  {team1:"Hamza",team2:"Naime",date:"18/01/2021",point:"",winner:""},
-  {team1:"Zahin",team2:"Rinku",date:"19/01/2021",point:"",winner:""},
-  {team1:"Hamza",team2:"Zahin",date:"19/01/2021",point:"",winner:""},
-  {team1:"Rinku",team2:"Naime",date:"19/01/2021",point:"",winner:""},
-  {team1:"1st Position",team2:"2nd Position",date:"20/01/2021",point:"",winner:""},
+  {team1:"Rinku",team2:"Hamza",date:"19/01/2021",point:"",winner:""},
+  {team1:"Naime",team2:"Zahin",date:"19/01/2021",point:"",winner:""},
+  {team1:"Hamza",team2:"Naime",date:"19/01/2021",point:"",winner:""},
+  {team1:"Zahin",team2:"Rinku",date:"20/01/2021",point:"",winner:""},
+  {team1:"Hamza",team2:"Zahin",date:"20/01/2021",point:"",winner:""},
+  {team1:"Rinku",team2:"Naime",date:"20/01/2021",point:"",winner:""},
+  {team1:"1st Position",team2:"2nd Position",date:"22/01/2021",point:"",winner:""},
 ];
 
 function Schedule() {
