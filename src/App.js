@@ -60,15 +60,15 @@ function Ranking() {
 
   var ranking = [
     {name:"Naime",img:"./img/n.png",point:0},
-    {name:"Zahin",img:"./img/z.png",point:0},
     {name:"Hamza",img:"./img/h.png",point:0},
     {name:"Rinku",img:"./img/r.png",point:0},
+    {name:"Zahin",img:"./img/z.png",point:0},
   ]
 
   rows.forEach((a) => {
     switch (a.winner) {
       case "Zahin":
-        ranking[0].point = ranking[0].point + 2
+        ranking[3].point = ranking[0].point + 2
         break;
       case "Hamza":
         ranking[1].point = ranking[1].point + 2
@@ -77,7 +77,7 @@ function Ranking() {
         ranking[2].point = ranking[2].point + 2
         break;
       case "Naime":
-        ranking[3].point = ranking[3].point + 2
+        ranking[0].point = ranking[3].point + 2
         break;
       default:
         break;
